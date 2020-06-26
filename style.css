@@ -1,0 +1,93 @@
+body{background: rgb(149,145,145);
+  background: radial-gradient(circle, rgb(201, 200, 200) 20%, rgba(0, 0, 0, 0.795) 53%)!important;
+}
+
+.calc{
+    border:1px solid  rgb(255, 254, 254) !important;
+    width: 330px !important;
+    margin: 0 auto !important;
+    background-color: rgba(223, 223, 223, 0.699);
+    margin-top: 50px !important;
+    overflow: hidden;
+height: 430px;
+    margin: 20px;
+ 
+    
+}
+.btn{
+  box-shadow: 0 4px #949394b7 !important;
+  border: 1px rgb(104, 104, 104) !important;
+  border-radius: 4px !important;
+  width: 80px;
+  padding:15px !important;
+  height: 60px;
+  font-weight: 750 !important;
+ margin-top: 7px !important;
+ color: black !important;
+ margin-left: 2px !important;
+
+}
+.btn:hover{
+
+    background-color: rgba(158, 155, 155, 0.678) !important;
+color: rgb(0, 0, 0) !important;
+border:black !important;
+
+ 
+
+}
+.equal {
+  opacity: 20px !important;
+    display: inline-block;
+    border: 1px solid #3079ED;
+    border-radius: 6px;
+    width: 21%;
+    text-align: center;
+    padding:82px 1px;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4d91fec7;
+    transition: all .2s ease-in-out;
+    float: right;
+ margin-top: -260px;
+ height: 262px;
+ margin-right: 0px;
+ font-weight: 800;
+  }
+  
+  div.equal:hover {
+    background-color: #2570e9c7;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #666666;
+  }
+  
+  div.equal:active {
+    font-weight: bold;
+  }
+
+  .output{
+     margin-top: 0px;
+     margin-bottom: 10px;
+     margin-left: 0px;
+    width: 329px;
+    height: 80px;
+    border: none;
+    overflow: hidden;
+    background: #B3B3B3;
+background: -moz-linear-gradient(top, #B3B3B3 0%, #E3E3E3 50%, #E8E8E8 100%);
+background: -webkit-linear-gradient(top, #B3B3B3 0%, #E3E3E3 50%, #E8E8E8 100%);
+background: linear-gradient(to bottom, #B3B3B3 0%, #E3E3E3 50%, #E8E8E8 100%);
+  }
+
+  .output:hover{
+
+    background-color: #8d898917;
+   
+  }
+
+
+
+
+
